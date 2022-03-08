@@ -40,7 +40,7 @@
 
 
         <EditText
-
+            android:id="@+id/uname"
             android:layout_width="363dp"
             android:layout_height="52dp"
             android:layout_marginLeft="20dp"
@@ -50,6 +50,7 @@
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHighlight="#FFFFFF"
+
             android:textSize="24sp" />
 
         <TextView
@@ -64,7 +65,7 @@
             android:textStyle="italic" />
 
         <EditText
-
+            android:id="@+id/pwd"
             android:layout_width="363dp"
             android:layout_height="52dp"
             android:layout_marginLeft="20dp"
@@ -85,7 +86,7 @@
             android:background="#00FFFFFF"
             android:clickable="true"
             android:fontFamily="@font/aclonica"
-            android:onClick="login"
+
             android:shadowColor="#FFFFFF"
             android:text="LOGIN"
             android:textColor="#94CEFB"
@@ -99,7 +100,7 @@
             android:layout_marginTop="30dp"
             android:background="#00FFFFFF"
             android:clickable="true"
-            android:onClick="signup"
+
             android:shadowColor="#FFFFFF"
             android:text="SIGNUP"
             android:textColor="#94CEFB"

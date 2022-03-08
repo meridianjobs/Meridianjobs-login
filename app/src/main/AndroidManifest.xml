@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Meridianjobs">
         <activity
+            android:name=".employee"
+            android:exported="false" />
+        <activity
+            android:name=".employer"
+            android:exported="false" />
+        <activity
             android:name=".Signup"
             android:exported="false" />
         <activity
