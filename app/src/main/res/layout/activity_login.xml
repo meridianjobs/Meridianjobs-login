@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg3" />`
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/aclonica"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/aclonica"
+            android:text="USERNAME"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="363dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:height="10dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFF"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/aclonica"
+            android:text="PASSWORD"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="363dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:height="10dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:fontFamily="@font/aclonica"
+
+            android:shadowColor="#FFFFFF"
+            android:text="LOGIN"
+            android:textColor="#94CEFB"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+
+            android:shadowColor="#FFFFFF"
+            android:text="SIGNUP"
+            android:textColor="#94CEFB"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

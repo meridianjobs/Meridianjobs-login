@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663628761283",
+    "project_id": "meridianjobs-48e86",
+    "storage_bucket": "meridianjobs-48e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663628761283:android:cbc24c5312ddefa7cf3a76",
+        "android_client_info": {
+          "package_name": "com.example.meridianjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663628761283-287h4oduf58non3iffme3ad73tm811tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKcvgEg54_nErLBx99zs7vdH7xCvXLxKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663628761283-287h4oduf58non3iffme3ad73tm811tm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

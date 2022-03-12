@@ -78,7 +78,7 @@ public class employer extends AppCompatActivity {
                     //  Data();
                     //progressDialog.dismiss();
                     Toast.makeText(employer.this, "Account created", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(employer.this, MainActivity.class));
+                    startActivity(new Intent(employer.this, Login.class));
                 } else {
                     //progressDialog.dismiss();
                     Toast.makeText(employer.this, "Error occurred", Toast.LENGTH_SHORT).show();
