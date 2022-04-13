@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Meridianjobs">
         <activity
+            android:name=".EmployerHomePg"
+            android:exported="false" />
+        <activity
+            android:name=".FilterActivity"
+            android:exported="false" />
+        <activity
             android:name=".Front_page"
             android:exported="false" />
         <activity

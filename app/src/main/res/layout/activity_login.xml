@@ -61,8 +61,7 @@
             android:fontFamily="@font/aclonica"
             android:text="PASSWORD"
             android:textColor="@color/white"
-            android:textSize="26dp"
-            android:textStyle="italic" />
+            android:textSize="26dp" />
 
         <EditText
             android:id="@+id/pwd"

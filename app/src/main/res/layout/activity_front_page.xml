@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Front_page">
 
+
       <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,8 +18,9 @@
         android:src="@drawable/ic_baseline_tune_24" />
 
     <LinearLayout
+        android:id="@+id/lay1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="600dp"
         android:layout_marginTop="37dp"
         android:orientation="vertical">
 
@@ -63,8 +65,41 @@
                         android:layout_height="match_parent"
                         android:paddingLeft="20dp"
                         android:text="Driver"
-                        android:textSize="30dp"/>
+                        android:textSize="30dp" />
                 </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:text="Plumber"
+                        android:textSize="30dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:text="Electrician"
+                        android:textSize="30dp" />
+
+
+                </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="140dp"
                     android:layout_height="80dp"
@@ -77,8 +112,9 @@
                         android:layout_height="match_parent"
                         android:paddingLeft="20dp"
                         android:text="Driver"
-                        android:textSize="30dp"/>
+                        android:textSize="30dp" />
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="140dp"
                     android:layout_height="80dp"
@@ -91,40 +127,49 @@
                         android:layout_height="match_parent"
                         android:paddingLeft="20dp"
                         android:text="Driver"
-                        android:textSize="30dp"/>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="140dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="20dp"
-
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:paddingLeft="20dp"
-                        android:text="Driver"
-                        android:textSize="30dp"/>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="140dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="20dp"
-
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:paddingLeft="20dp"
-                        android:text="Driver"
-                        android:textSize="30dp"/>
+                        android:textSize="30dp" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
         </HorizontalScrollView>
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lay1"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:background="#00BCD4"
+            android:src="@drawable/ic_baseline_work_24" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="#00BCD4"
+            android:src="@drawable/ic_baseline_chat_24" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="#00BCD4"
+            android:src="@drawable/notification" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="#00BCD4"
+            android:src="@drawable/ic_baseline_person_24" />
 
     </LinearLayout>
 
